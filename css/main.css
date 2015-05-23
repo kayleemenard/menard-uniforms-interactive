@@ -60,12 +60,12 @@ li {
 }
 
 .f-left {
-	display: inline-block;
+	display: block;
 	float: left;
 }
 
 .f-right {
-	display: inline-block;
+	display: block;
 	float: right;
 }
 
