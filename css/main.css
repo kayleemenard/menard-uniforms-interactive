@@ -17,10 +17,6 @@ html {
 	box-sizing: inherit;
 }
 
-h1 {
-	background-image: url(http://lorempixel.com/output/cats-q-c-1800-700-7.jpg);
-}
-
 body {
 	margin: 0;
 }
@@ -54,11 +50,6 @@ li {
 	color: lightpink;
 }
 
-.img-flex {
-	margin: 0;
-	width: 100%;
-}
-
 .f-left {
 	display: block;
 	float: left;
@@ -69,20 +60,27 @@ li {
 	float: right;
 }
 
-/* NAVIGATION */
+/* NAVIGATION **********************************************/
 .title {
 	background-color: lightpink;
 }
 
-
-.partA {
-	margin: 0;
+/* BANNER **************************************************/
+h1 {
+	background-image: url(http://lorempixel.com/output/cats-q-c-1800-700-7.jpg);
+	color: white;
+	height: 25vh;
 }
 
-.partB {
-	margin: 0;
-}
-
+/* SECTION A ***********************************************/
+/* SECTION B ***********************************************/
+/* FOOTER **************************************************/
 @media only screen and (min-width: 25em) {}
-@media only screen and (min-width: 38em) {}
+@media only screen and (min-width: 38em) {
+
+h1 {
+	height: 50vh;
+}
+
+}
 @media only screen and (min-width: 60em) {}
