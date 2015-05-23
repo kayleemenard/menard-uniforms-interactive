@@ -22,32 +22,9 @@ body {
 }
 
 a {
+	text-decoration: none;
 	margin: 0;
-}
-
-li {
-	margin-left: 0;
-	margin-right: 0;
-}
-
-.blue {
-	color: cornflowerblue;
-}
-
-.red {
-	color: coral;
-}
-
-.yellow {
-	color: gold;
-}	
-
-.brown {
-	color: brown;
-}
-
-.pink {
-	color: lightpink;
+	list-style-type: none;
 }
 
 .f-left {
@@ -60,10 +37,46 @@ li {
 	float: right;
 }
 
+/* COLOURS *************************************************/
+.blue {
+	color: cornflowerblue;
+}
+
+.red {
+	color: coral;
+}
+
+.yellow {
+	color: gold;
+}	
+
+.white {
+	color: white;
+}
+
+.pink {
+	color: lightpink;
+}
+
 /* NAVIGATION **********************************************/
 .title {
-	background-color: lightpink;
+	background-color: cornflowerblue;
 }
+
+nav {
+	width: 100%;
+}
+
+ul {
+	padding: 0;
+	vertical-align: bottom;
+}
+
+.menu-item {
+	border-bottom: solid 2px;
+	margin-left: 0.25em
+}
+
 
 /* BANNER **************************************************/
 h1 {
@@ -81,6 +94,5 @@ h1 {
 h1 {
 	height: 50vh;
 }
-
 }
 @media only screen and (min-width: 60em) {}
