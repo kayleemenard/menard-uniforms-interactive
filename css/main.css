@@ -16,3 +16,9 @@ html {
 *, *::before, *::after; {
 	box-sizing: inherit;
 }
+
+h1 {
+	background-image: url(http://lorempixel.com/output/cats-q-c-1800-700-7.jpg);
+)
+
+.
