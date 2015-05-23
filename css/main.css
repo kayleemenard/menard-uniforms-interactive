@@ -69,30 +69,67 @@ nav {
 
 ul {
 	padding: 0;
-	vertical-align: bottom;
+}
+
+.menu {
+	display: inline-block;
 }
 
 .menu-item {
 	border-bottom: solid 2px;
-	margin-left: 0.25em
 }
 
 
 /* BANNER **************************************************/
 h1 {
 	background-image: url(http://lorempixel.com/output/cats-q-c-1800-700-7.jpg);
-	color: white;
+	background-position: bottom;
+	background-size: cover;
 	height: 25vh;
 }
 
 /* SECTION A ***********************************************/
+.img-a {
+	background-image: url(http://lorempixel.com/output/cats-q-c-400-300-9.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: pink;
+	height: auto;
+	width: 100%;
+}
+
+
 /* SECTION B ***********************************************/
+.partB {
+	display: block;
+}
+
+.second {
+	width: 100%;
+}
+
 /* FOOTER **************************************************/
-@media only screen and (min-width: 25em) {}
+footer {
+	border-top: solid 1px
+}
+
+footer p {
+	text-align: center;
+}
+
+
+/* MEDIA QUERIES *******************************************/
+@media only screen and (min-width: 25em) {
+}
 @media only screen and (min-width: 38em) {
 
-h1 {
-	height: 50vh;
-}
+	h1 {
+		height: 50vh;
+	}
+
+	footer p {
+		text-align: left;
+	}
 }
 @media only screen and (min-width: 60em) {}
