@@ -19,6 +19,70 @@ html {
 
 h1 {
 	background-image: url(http://lorempixel.com/output/cats-q-c-1800-700-7.jpg);
-)
+}
 
-.
+body {
+	margin: 0;
+}
+
+a {
+	margin: 0;
+}
+
+li {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.blue {
+	color: cornflowerblue;
+}
+
+.red {
+	color: coral;
+}
+
+.yellow {
+	color: gold;
+}	
+
+.brown {
+	color: brown;
+}
+
+.pink {
+	color: lightpink;
+}
+
+.img-flex {
+	margin: 0;
+	width: 100%;
+}
+
+.f-left {
+	display: inline-block;
+	float: left;
+}
+
+.f-right {
+	display: inline-block;
+	float: right;
+}
+
+/* NAVIGATION */
+.title {
+	background-color: lightpink;
+}
+
+
+.partA {
+	margin: 0;
+}
+
+.partB {
+	margin: 0;
+}
+
+@media only screen and (min-width: 25em) {}
+@media only screen and (min-width: 38em) {}
+@media only screen and (min-width: 60em) {}

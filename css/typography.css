@@ -70,12 +70,16 @@ fieldset, pre, table {
 }
 
 h1, .exa {
+  font-family: 'Coda', sans-serif;
   font-size: 1.3830rem;
+  font-weight: 400;
   line-height: 1.8800;
 }
 
 h2, .peta {
+  font-family: 'Coda', sans-serif;
   font-size: 1.2962rem;
+  font-weight: 400;
   line-height: 1.0030;
 }
 
