@@ -39,15 +39,15 @@ a {
 
 /* COLOURS *************************************************/
 .blue {
-	color: cornflowerblue;
+	color: paleturquoise;
 }
 
 .red {
-	color: coral;
+	color: peachpuff;
 }
 
 .yellow {
-	color: gold;
+	color: plum;
 }	
 
 .white {
@@ -58,9 +58,14 @@ a {
 	color: lightpink;
 }
 
+.gray {
+	color: slategray;
+}
+
 /* NAVIGATION **********************************************/
 .title {
-	background-color: cornflowerblue;
+	background-color: #A0B0E0;
+	color: white;
 }
 
 nav {
@@ -106,12 +111,13 @@ h1 {
 }
 
 .second {
+	background-color: honeydew;
 	width: 100%;
 }
 
 /* FOOTER **************************************************/
 footer {
-	border-top: solid 1px
+	background-color: #A0B0E0;
 }
 
 footer p {
