@@ -90,11 +90,6 @@ h1 {
 
 /* SECTION A ***********************************************/
 .img-a {
-	background-image: url(http://lorempixel.com/output/cats-q-c-400-300-9.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: pink;
 	height: auto;
 	width: 100%;
 }
